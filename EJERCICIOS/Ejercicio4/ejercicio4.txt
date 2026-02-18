@@ -1,0 +1,4 @@
+4. Does the handwritten version of the scanner from Example 1-4 recognize exactly
+the same tokens as the flex version?
+
+No, el scanner escrito a mano no reconoce exactamente los mismos tokens que el generado por Flex. Aunque ambos buscan producir el mismo resultado, el scanner manual maneja los caracteres, el avance del input y situaciones como errores o comentarios de forma diferente. Flex usa un autómata optimizado que sigue reglas más precisas y uniformes, mientras que el scanner manual puede comportarse de manera distinta en casos límite, como caracteres inesperados, fin de archivo o combinaciones raras de espacios. Por eso, en la práctica no son idénticos, aunque funcionen parecido en los casos comunes.
